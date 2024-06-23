@@ -1,0 +1,70 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Déconnectée",
+          "color": {
+            "value": -2960686,
+            "falpha": 0.0
+          },
+          "name": "Déconnectée",
+          "x": 136,
+          "y": 96
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "boxdisconnected.png",
+          "use1Xscale": false,
+          "name": "boxdisconnected.png",
+          "x": 133,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Raison :",
+          "color": {
+            "value": -4079167,
+            "falpha": 0.0
+          },
+          "name": "Raison :",
+          "x": 136,
+          "y": 111
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Aucun joueur disponible",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Aucun joueur disponible",
+          "x": 136,
+          "y": 123
+        }
+      }
+    ],
+    "baseTexture": "noir.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "DisconnectedAFF"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

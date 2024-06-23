@@ -1,0 +1,254 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "menu1.png",
+          "use1Xscale": false,
+          "name": "menu1.png",
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Choisi une map pour jouer",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Choisi une map pour jouer",
+          "x": 14,
+          "y": 4
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Terminal",
+          "onClick": {
+            "name": "OpenMenuTerminal"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Terminal",
+          "x": 5,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lockdown",
+          "width": 67,
+          "height": 20,
+          "name": "Lockdown",
+          "x": 5,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Village",
+          "width": 61,
+          "height": 20,
+          "name": "Village",
+          "x": 5,
+          "y": 76
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hardhat",
+          "width": 61,
+          "height": 20,
+          "name": "Hardhat",
+          "x": 5,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Resistance",
+          "width": 77,
+          "height": 20,
+          "name": "Resistance",
+          "x": 5,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Dome",
+          "width": 46,
+          "height": 20,
+          "name": "Dome",
+          "x": 5,
+          "y": 145
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fallen",
+          "width": 56,
+          "height": 20,
+          "name": "Fallen",
+          "x": 5,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mission",
+          "width": 61,
+          "height": 20,
+          "name": "Mission",
+          "x": 5,
+          "y": 191
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Retour",
+          "onClick": {
+            "name": "Retour"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Retour",
+          "x": 1,
+          "y": 219
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalTerminal> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalTerminal> / 12",
+          "x": 90,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalLockdown> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalLockdown> / 12",
+          "x": 90,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalVillage> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalVillage> / 12",
+          "x": 91,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalHardhat> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalHardhat> / 12",
+          "x": 91,
+          "y": 104
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalResistance> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalResistance> / 12",
+          "x": 91,
+          "y": 127
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalDome> / 12",
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalDome> / 12",
+          "x": 92,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalFallen> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalFallen> / 12",
+          "x": 92,
+          "y": 173
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalMission> / 12",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalMission> / 12",
+          "x": 93,
+          "y": 196
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Quitter la partie",
+          "onClick": {
+            "name": "Leave1"
+          },
+          "width": 113,
+          "height": 20,
+          "name": "Quitter la partie",
+          "x": 6,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Retour au jeu",
+          "onClick": {
+            "name": "RetourAuJeu"
+          },
+          "width": 92,
+          "height": 20,
+          "name": "Retour au jeu",
+          "x": 6,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Menu pause",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Menu pause",
+          "x": 178,
+          "y": 10
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Menu CRAFT",
+          "displayCondition": {
+            "name": "AfficheButtonMenucraft"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Menu CRAFT",
+          "x": 341,
+          "y": 45
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

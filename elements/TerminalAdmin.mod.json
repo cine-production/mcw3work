@@ -1,0 +1,326 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Nombre total de joueur sur la map :",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Nombre total de joueur sur la map :",
+          "x": 5,
+          "y": 6
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nombre de joueur dans l'équipe DELTA :",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Nombre de joueur dans l'équipe DELTA :",
+          "x": 5,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nombre de joueur dans l'équipe ALFA :",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Nombre de joueur dans l'équipe ALFA :",
+          "x": 5,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:EquipeALFA1>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:EquipeALFA1>",
+          "x": 210,
+          "y": 48
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:EquipeDELTA1>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:EquipeDELTA1>",
+          "x": 210,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:NbJoueurTotalTerminal>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:NbJoueurTotalTerminal>",
+          "x": 210,
+          "y": 6
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Temps restant :",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Temps restant :",
+          "x": 5,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:TimeTerminal>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:TimeTerminal>",
+          "x": 210,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Temps de Jeu : 10 minutes",
+          "color": {
+            "value": -6684775,
+            "falpha": 0.0
+          },
+          "name": "Temps de Jeu : 10 minutes",
+          "x": 6,
+          "y": 129
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "________INFORMATION________",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "________INFORMATION________",
+          "x": 6,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Type de jeu : MME",
+          "color": {
+            "value": -6684775,
+            "falpha": 0.0
+          },
+          "name": "Type de jeu : MME",
+          "x": 6,
+          "y": 146
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Capacité : 12 joueurs",
+          "color": {
+            "value": -6684775,
+            "falpha": 0.0
+          },
+          "name": "Capacité : 12 joueurs",
+          "x": 7,
+          "y": 164
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Retour",
+          "onClick": {
+            "name": "RetourAdmin"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Retour",
+          "x": 4,
+          "y": 217
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "NbAdminEqDelta1Plus"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 268,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nom de la map : Terminal",
+          "color": {
+            "value": -6684775,
+            "falpha": 0.0
+          },
+          "name": "Nom de la map : Terminal",
+          "x": 7,
+          "y": 181
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "NbAdminEqAlfa1Plus"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 268,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "-",
+          "onClick": {
+            "name": "NbAdminEqDelta1Moin"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "-",
+          "x": 302,
+          "y": 22
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "-",
+          "onClick": {
+            "name": "NbAdminEqAlfa1Moin"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "-",
+          "x": 302,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Reset la map",
+          "onClick": {
+            "name": "ResetTerminal"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Reset la map",
+          "x": 335,
+          "y": 217
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "§3STOP PARTIE",
+          "width": 93,
+          "height": 20,
+          "name": "§3STOP PARTIE",
+          "x": 239,
+          "y": 217
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ouvrir menu Terminal",
+          "onClick": {
+            "name": "OpenMenuTerminal"
+          },
+          "width": 119,
+          "height": 20,
+          "name": "Ouvrir menu Terminal",
+          "x": 89,
+          "y": 217
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nombre de mort :",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Nombre de mort :",
+          "x": 5,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- - -",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "- - -",
+          "x": 210,
+          "y": 91
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

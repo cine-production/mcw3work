@@ -1,0 +1,70 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "  Attention ! est-tu sûr de vouloir quitter ?  ",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "  Attention ! est-tu sûr de vouloir quitter ?  ",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tu perdras ton score",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Tu perdras ton score",
+          "x": 159,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A bientôt",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "A bientôt",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Clique ici pour quitter",
+          "color": {
+            "value": -39322,
+            "falpha": 0.0
+          },
+          "name": "Clique ici pour quitter",
+          "x": 150,
+          "y": 161
+        }
+      }
+    ],
+    "baseTexture": "esc.png",
+    "overlayTarget": "IngameMenu",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

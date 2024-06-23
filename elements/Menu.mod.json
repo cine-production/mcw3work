@@ -1,0 +1,85 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "menu1.png",
+          "use1Xscale": false,
+          "name": "menu1.png",
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Choisir une carte",
+          "onClick": {
+            "name": "ChoisirUneCarte"
+          },
+          "width": 119,
+          "height": 20,
+          "name": "Choisir une carte",
+          "x": 20,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Si vous appuyez sur ECHAP, vous devrez quitter",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Si vous appuyez sur ECHAP, vous devrez quitter",
+          "x": 174,
+          "y": 226
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Joueur en ligne :",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "Joueur en ligne :",
+          "x": 3,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:PlayerPresentInGame>",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "<VAR:PlayerPresentInGame>",
+          "x": 96,
+          "y": 222
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

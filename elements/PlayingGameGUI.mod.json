@@ -1,0 +1,205 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 168,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Tableau des parties en cours",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Tableau des parties en cours",
+          "x": 139,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Map :",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Map :",
+          "x": 119,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Temps re. :",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Temps re. :",
+          "x": 248,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Terminal",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "Terminal",
+          "x": 119,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:TimeTerminal>",
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "name": "<VAR:TimeTerminal>",
+          "x": 248,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:TimeLockdown>",
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "name": "<VAR:TimeLockdown>",
+          "x": 249,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:TimeVillage>",
+          "color": {
+            "value": -3355648,
+            "falpha": 0.0
+          },
+          "name": "<VAR:TimeVillage>",
+          "x": 249,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lockdown",
+          "color": {
+            "value": -13382656,
+            "falpha": 0.0
+          },
+          "name": "Lockdown",
+          "x": 120,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Village",
+          "color": {
+            "value": -13382656,
+            "falpha": 0.0
+          },
+          "name": "Village",
+          "x": 120,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Menu Admin",
+          "onClick": {
+            "name": "CommandeopenMenuAdmin"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Menu Admin",
+          "x": 175,
+          "y": 204
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "En cours :",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "En cours :",
+          "x": 174,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:TerminalPlaying>",
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "name": "<VAR:TerminalPlaying>",
+          "x": 178,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:LockdownPlaying>",
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "name": "<VAR:LockdownPlaying>",
+          "x": 178,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:VillagePlaying>",
+          "color": {
+            "value": -16777063,
+            "falpha": 0.0
+          },
+          "name": "<VAR:VillagePlaying>",
+          "x": 178,
+          "y": 108
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
